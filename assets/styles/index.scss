@@ -1,0 +1,17 @@
+//Le role de index.scss est de rassembler tous les fichiers SASS 
+
+// Settings doit être déclarer en premier
+
+@use "./settings";
+@use "./layouts/header";
+@use "./layouts/section1";
+@use "./layouts/section2";
+@use "./layouts/section3";
+@use "./layouts/section4";
+@use "./layouts/section5";
+@use "./layouts/footer";
+
+
+
+
+
