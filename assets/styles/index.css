@@ -25,7 +25,7 @@ li {
 }
 
 body {
-  background-color: rgb(48, 47, 47);
+  background-color: rgb(39, 39, 39);
 }
 body:before {
   content: "";
@@ -34,7 +34,7 @@ body:before {
   width: 100%;
   top: 0;
   left: 0;
-  background: rgb(124, 122, 122);
+  background: rgb(112, 112, 112);
   animation: animBefore 1.5s ease forwards;
   animation-delay: 0.15s;
 }
@@ -42,4 +42,26 @@ body:before {
   to {
     opacity: 0;
   }
+}
+
+header {
+  min-height: 50vh;
+  background: url(/assets/img/bg-slider-06.jpg);
+}
+header nav {
+  display: flex;
+  justify-content: space-evenly;
+  width: 70%;
+  margin: 0 auto;
+  padding: 30px;
+}
+header ul {
+  display: flex;
+  align-items: center;
+}
+header li {
+  padding: 0 20px;
+}
+header .logo {
+  color: rgb(214, 214, 9);
 }/*# sourceMappingURL=index.css.map */

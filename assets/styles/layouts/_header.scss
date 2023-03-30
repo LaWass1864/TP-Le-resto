@@ -1,1 +1,27 @@
 
+header{
+    min-height: 50vh;
+    background: url(/assets/img/bg-slider-06.jpg)fixed center/cover;
+    nav {
+        display: flex;
+        justify-content: space-evenly;
+        width: 70%;
+        margin: 0 auto;
+        padding: 30px;
+        
+    }
+    ul{
+        display: flex;
+        align-items: center;
+        color:azure;
+    }
+
+    li {
+        padding: 0 20px;
+    }
+
+    .logo{
+        font-family: $font1;
+
+    }
+}

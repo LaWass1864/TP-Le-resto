@@ -15,6 +15,9 @@
   src: url(../fonts/Roboto-Light.ttf);
 }
 
+$font1: allura, sans-serif;
+$font2: poppins, serif;
+$font3 : roboto, sans-serif;
 // couleurs
 
 // mixin
@@ -36,7 +39,7 @@ li {
 }
 
 body {
-  background-color: rgb(48, 47, 47);
+  background-color: rgb(39, 39, 39);
 
   &:before {
     content: "";
@@ -45,7 +48,7 @@ body {
     width: 100%;
     top: 0;
     left: 0;
-    background: rgb(124, 122, 122);
+    background: rgb(112, 112, 112);
     animation: animBefore 1.5s ease forwards;
     animation-delay: 0.15s;
 
