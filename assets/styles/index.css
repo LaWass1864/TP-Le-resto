@@ -160,7 +160,7 @@ header .header p {
   text-align: center;
   background-position-y: 400px;
   padding: 50px;
-  height: 1000px;
+  height: 1050px;
 }
 .section2 .title {
   font-family: "Allura";
@@ -209,15 +209,15 @@ header .header p {
 }
 .section2 .menu .menu-gauche .plates {
   display: grid;
-  grid-template-columns: 20% 50% 30%;
+  grid-template-columns: 25% 45% 20%;
   align-items: center;
   gap: 30px;
-  padding: 15px;
+  padding: 25px;
 }
 .section2 .menu .menu-gauche .plates::after {
   content: "";
   border-bottom: 1px dashed gray;
-  width: 365px;
+  width: 400%;
 }
 .section2 .menu .menu-gauche .description-plat {
   display: flex;
@@ -227,7 +227,7 @@ header .header p {
 .section2 .menu .menu-gauche h4 {
   text-transform: uppercase;
   font-family: "Roboto";
-  font-size: 0.8rem;
+  font-size: 0.7rem;
 }
 .section2 .menu .menu-gauche p {
   text-transform: capitalize;
@@ -243,15 +243,15 @@ header .header p {
 }
 .section2 .menu .menu-droite .plates {
   display: grid;
-  grid-template-columns: 20% 50% 30%;
+  grid-template-columns: 25% 45% 20%;
   align-items: center;
   gap: 30px;
-  padding: 15px;
+  padding: 25px;
 }
 .section2 .menu .menu-droite .plates::after {
   content: "";
   border-bottom: 1px dashed gray;
-  width: 365px;
+  width: 400%;
 }
 .section2 .menu .menu-droite .description-plat {
   display: flex;
@@ -261,7 +261,7 @@ header .header p {
 .section2 .menu .menu-droite h4 {
   text-transform: uppercase;
   font-family: "Roboto";
-  font-size: 0.8rem;
+  font-size: 0.7rem;
 }
 .section2 .menu .menu-droite p {
   text-transform: capitalize;

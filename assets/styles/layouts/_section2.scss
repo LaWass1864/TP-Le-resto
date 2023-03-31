@@ -4,7 +4,7 @@
   text-align: center;
   background-position-y: 400px;
   padding: 50px;
-  height: 1000px;
+  height: 1050px;
 
   .title {
     font-family: "Allura";
@@ -61,15 +61,15 @@
 
       .plates {
         display: grid;
-        grid-template-columns: 20% 50% 30%;      
+        grid-template-columns: 25% 45% 20%;      
         align-items: center;
         gap:30px;
-        padding: 15px;
+        padding: 25px;
         
         &::after{
           content: '';
           border-bottom: 1px dashed gray;
-          width: 365px;
+          width: 400%;
         }
       }
 
@@ -82,7 +82,7 @@
       h4 {
         text-transform: uppercase;
         font-family: 'Roboto';
-        font-size: 0.8rem;
+        font-size: 0.7rem;
       }
 
       p{
@@ -104,15 +104,15 @@
 
       .plates {
         display: grid;
-        grid-template-columns: 20% 50% 30%;      
+        grid-template-columns: 25% 45% 20%;       
         align-items: center;
         gap:30px;
-        padding: 15px;
+        padding: 25px;
         
         &::after{
           content: '';
           border-bottom: 1px dashed gray;
-          width: 365px;
+          width: 400%;
         }
       }
 
@@ -125,7 +125,7 @@
       h4 {
         text-transform: uppercase;
         font-family: 'Roboto';
-        font-size: 0.8rem;
+        font-size: 0.7rem;
       }
 
       p{
