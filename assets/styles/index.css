@@ -103,6 +103,7 @@ header .header p {
 .section1 {
   display: grid;
   grid-template-columns: 50% 50%;
+  min-height: 400px;
 }
 .section1 .container-left {
   background: rgb(221, 220, 220);
@@ -112,7 +113,7 @@ header .header p {
   padding: 30px;
   border: 1px dashed #a87345;
   text-align: center;
-  height: 540px;
+  height: auto;
 }
 .section1 .dashed h2 {
   font-family: "Allura";
@@ -174,7 +175,7 @@ header .header p {
   display: flex;
 }
 .section2 nav li {
-  padding: 30px 40px;
+  padding: 30px 60px;
   display: inline-block;
   font-family: "Roboto";
   color: white;
@@ -196,8 +197,76 @@ header .header p {
   background: rgb(238, 237, 237);
   width: 60%;
   margin: 0 auto;
-  padding: 30px;
-  display: flex;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: 50% 50%;
   border-top: 5px solid #a87345;
+  padding: 20px;
+}
+.section2 .menu .menu-gauche img {
+  border-radius: 50%;
+  height: 90px;
+}
+.section2 .menu .menu-gauche .plates {
+  display: grid;
+  grid-template-columns: 20% 50% 30%;
+  align-items: center;
+  gap: 30px;
+  padding: 20px;
+}
+.section2 .menu .menu-gauche .plates::after {
+  content: "";
+  border-bottom: 1px dashed gray;
+  width: 390px;
+}
+.section2 .menu .menu-gauche .description-plat {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.section2 .menu .menu-gauche h4 {
+  text-transform: uppercase;
+  font-family: "Roboto";
+  font-size: 0.8rem;
+}
+.section2 .menu .menu-gauche p {
+  text-transform: capitalize;
+  font-family: "Roboto";
+}
+.section2 .menu .menu-gauche .price {
+  color: #a87345;
+  font-weight: 700;
+}
+.section2 .menu .menu-droite img {
+  border-radius: 50%;
+  height: 90px;
+}
+.section2 .menu .menu-droite .plates {
+  display: grid;
+  grid-template-columns: 20% 50% 30%;
+  align-items: center;
+  gap: 30px;
+  padding: 20px;
+}
+.section2 .menu .menu-droite .plates::after {
+  content: "";
+  border-bottom: 1px dashed gray;
+  width: 390px;
+}
+.section2 .menu .menu-droite .description-plat {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.section2 .menu .menu-droite h4 {
+  text-transform: uppercase;
+  font-family: "Roboto";
+  font-size: 0.8rem;
+}
+.section2 .menu .menu-droite p {
+  text-transform: capitalize;
+  font-family: "Roboto";
+}
+.section2 .menu .menu-droite .price {
+  color: #a87345;
+  font-weight: 700;
 }/*# sourceMappingURL=index.css.map */
