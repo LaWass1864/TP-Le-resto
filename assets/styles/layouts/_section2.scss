@@ -1,0 +1,57 @@
+.section2 {
+  background-image: url(/assets/img/bg-menu-01.jpg);
+  background-repeat: no-repeat;
+  text-align: center;
+  background-position-y: 420px;
+  padding: 50px;
+
+  .title {
+    font-family: "Allura";
+    color: #a87345;
+    font-size: 2rem;
+    padding: 20px;
+  }
+
+  nav {
+    display: flex;
+    justify-content: center;
+
+    ul {
+      display: flex;
+    }
+
+    li {
+      padding: 30px 40px;
+      display: inline-block;
+      font-family: "Roboto";
+      color: white;
+      text-decoration: none;
+      text-transform: capitalize;
+
+      &:after {
+        content: "";
+        display: block;
+        width: 0;
+        background: #a87345;
+        height: 2px;
+        transition: width 0.3s;
+      }
+
+      &:hover::after {
+        width: 100%;
+      }
+    }
+  }
+
+  .menu{
+    background: rgb(238, 237, 237);
+    width: 60%;
+    margin: 0 auto;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    border-top: 5px solid #a87345;
+
+  }
+
+}

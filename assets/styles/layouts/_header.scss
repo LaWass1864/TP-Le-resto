@@ -9,39 +9,41 @@ header {
     margin: 0 auto;
     padding: 30px;
     overflow: hidden;
-   
   }
 
   ul {
     display: flex;
     justify-content: space-between;
     color: rgb(202, 202, 202);
-    cursor: pointer;
   }
 
   .logo {
     font-family: "Allura";
     font-size: 2rem;
     transform: translateY(-10px);
+    &:hover {
+      color: red;
+    }
   }
 
   .menu {
-    li {
-      padding: 0 40px;
+    li{
+      color: rgb(202, 202, 202);
+      padding-left: 70px;
+      font-family: "roboto";
       text-transform: uppercase;
-      font-family: "Roboto";
-      font-weight: 500;
+      font-weight: 500;    
+      
     }
   }
 
   .social {
-    li{
-        padding-right: 20px;
+    li {
+      padding-right: 20px;
     }
   }
 
   .header {
-
     padding: 90px;
     text-align: center;
 
@@ -51,27 +53,28 @@ header {
       font-size: 3rem;
       font-weight: 300;
       transform: translateY(10px);
+    }
+
+    .welcome {
+      font-size: 3rem;
+      text-transform: uppercase;
+      font-family: "Poppins";
+      color: white;
+      letter-spacing: 8px;
+      transform: translateY(-20px);
+    }
+
+    img {
+      font-size: 20px;
       
     }
 
-    .welcome{
-        font-size: 3rem;
-        text-transform: uppercase;
-        font-family: 'Poppins';
-        color:white;
-        letter-spacing: 8px;
-        transform: translateY(-20px);
+    p {
+      font-family: "Roboto";
+      color: white;
+      letter-spacing: 6px;
+      transform: translateY(50px);
+      text-transform: uppercase;
     }
-
-    img{
-        font-size: 20px;
-    }
-
-    p{
-        font-family: 'Roboto';
-        color:white;
-        letter-spacing: 6px;        
-        transform: translateY(50px);
-    }
-}
+  }
 }

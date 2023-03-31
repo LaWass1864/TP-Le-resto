@@ -51,17 +51,20 @@ header ul {
   display: flex;
   justify-content: space-between;
   color: rgb(202, 202, 202);
-  cursor: pointer;
 }
 header .logo {
   font-family: "Allura";
   font-size: 2rem;
   transform: translateY(-10px);
 }
+header .logo:hover {
+  color: red;
+}
 header .menu li {
-  padding: 0 40px;
+  color: rgb(202, 202, 202);
+  padding-left: 70px;
+  font-family: "roboto";
   text-transform: uppercase;
-  font-family: "Roboto";
   font-weight: 500;
 }
 header .social li {
@@ -94,6 +97,7 @@ header .header p {
   color: white;
   letter-spacing: 6px;
   transform: translateY(50px);
+  text-transform: uppercase;
 }
 
 .section1 {
@@ -147,4 +151,53 @@ header .header p {
 .section1 .container-right {
   background-image: url(/assets/img/store-01.jpg);
   background-position: center;
+}
+
+.section2 {
+  background-image: url(/assets/img/bg-menu-01.jpg);
+  background-repeat: no-repeat;
+  text-align: center;
+  background-position-y: 420px;
+  padding: 50px;
+}
+.section2 .title {
+  font-family: "Allura";
+  color: #a87345;
+  font-size: 2rem;
+  padding: 20px;
+}
+.section2 nav {
+  display: flex;
+  justify-content: center;
+}
+.section2 nav ul {
+  display: flex;
+}
+.section2 nav li {
+  padding: 30px 40px;
+  display: inline-block;
+  font-family: "Roboto";
+  color: white;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.section2 nav li:after {
+  content: "";
+  display: block;
+  width: 0;
+  background: #a87345;
+  height: 2px;
+  transition: width 0.3s;
+}
+.section2 nav li:hover::after {
+  width: 100%;
+}
+.section2 .menu {
+  background: rgb(238, 237, 237);
+  width: 60%;
+  margin: 0 auto;
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+  border-top: 5px solid #a87345;
 }/*# sourceMappingURL=index.css.map */
