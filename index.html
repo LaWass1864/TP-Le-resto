@@ -175,7 +175,7 @@
               </div>
               <div class="description-plat">
                 <h4>roast pork (4 sticks)</h4>
-                <p>pork / veggies / shoyu </p>
+                <p>pork / veggies / shoyu</p>
               </div>
               <div class="price">
                 <p>$18</p>
@@ -205,7 +205,7 @@
               </div>
               <div class="description-plat">
                 <h4>baked potato pizza</h4>
-                <p>potato / bread / cheese </p>
+                <p>potato / bread / cheese</p>
               </div>
               <div class="price">
                 <p>$25</p>
@@ -217,63 +217,68 @@
     </section>
 
     <section class="section3">
-      <div class="left-container">
-        <div class="dashed">
-          <div class="planning">
-            <h2>time</h2>
-            <h3>open</h3>
-            <img src="./assets/img/ic-plate.png" alt="" />
-            <div>
-              <p>monday-friday</p>
-              <p>7am-11am(breakfast)</p>
-              <p>11AM - 10PM(Lunch/Dinner)</p>
-            </div>
-            <div>
-              <p>saturday-sunday</p>
-              <p>8AM-1PM(Brunch)</p>
-              <p>11AM - 10PM(Lunch/Dinner)</p>
-            </div>
-            <div>
-              <p>+ 15 890 979 25 52</p>
-              <p></p>
+      <div class="formulaire">
+        <div class="left-container">
+          <div class="dashed">
+            <div class="planning">
+              <h2>Time</h2>
+              <h3>open</h3>
+              <img src="./assets/img/ic-plate.png" alt="" />
+              <div>
+                <p class="days">monday-friday</p>
+                <p>7am-11am(Breakfast)</p>
+                <p>11AM - 10PM(Lunch/Dinner)</p>
+              </div>
+              <div>
+                <p class="days">saturday/sunday</p>
+                <p>8AM-1PM(Brunch)</p>
+                <p>1PM - 9PM(Lunch/Dinner)</p>
+              </div>
+              <div>
+                <p class="days">+ 15 890 979 25 52</p>                
+              </div>
             </div>
           </div>
         </div>
-      </div>
 
-      <div class="right-container">
-        <h3>reservation</h3>
-        <h2>online booking</h2>
-        <img src="./assets/img/ic-plate.png" alt="" />
+        <div class="right-container">
+          <div class="booking-header">
+          <h2>Reservation</h2>
+          <h3>online booking</h3>
+          <img src="./assets/img/ic-plate.png" alt="" />
+        </div>
+        <form>
+          <div class="form1">
+            <label for="people"></label>
+            <select name="people" id="people">
+              <option value="">People</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+            <input type="date" name="date" id="date" />
+            <input type="time" name="time" />
+          </div>
+          <div class="form2">
+            <label for="name"></label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              required
+              placeholder="Name"
+            />
+            <input type="number" name="phone" id="phone" placeholder="Phone" />
+            <input type="email" name="email" id="email" placeholder="Email" />
+            <div class="button">
+            <input type="submit" value="book now" />
+          </div>
+          </div>
+        </form>
       </div>
-      <form>
-        <div class="form1">
-          <label for="people"></label>
-          <select name="people" id="people">
-            <option value="">People</option>
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-          </select>
-          <input type="date" name="date" id="date" />
-          <input type="time" name="time" />
-        </div>
-        <div class="form2">
-          <label for="name"></label>
-          <input
-            type="text"
-            id="name"
-            name="name"
-            required
-            placeholder="Name"
-          />
-          <input type="number" name="phone" id="phone" placeholder="Phone" />
-          <input type="email" name="email" id="email" placeholder="Email" />
-          <input type="submit" value="book now" />
-        </div>
-      </form>
+    </div>
     </section>
 
     <section class="section4">

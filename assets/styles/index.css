@@ -160,7 +160,7 @@ header .header p {
   text-align: center;
   background-position-y: 400px;
   padding: 50px;
-  height: 1050px;
+  height: 950px;
 }
 .section2 .title {
   font-family: "Allura";
@@ -274,4 +274,93 @@ header .header p {
 .section2 .menu .menu-droite .price {
   color: #a87345;
   font-weight: 700;
+}
+
+.section3 {
+  background: rgb(39, 39, 39);
+}
+.section3 .formulaire {
+  width: 70%;
+  height: 400px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  padding-top: 30px;
+}
+.section3 .left-container {
+  background: #030303;
+}
+.section3 .left-container .dashed {
+  border: 1px dashed rgb(207, 203, 203);
+  margin: 30px;
+}
+.section3 .left-container .dashed .planning {
+  text-align: center;
+  padding: 10px;
+}
+.section3 .left-container .dashed .planning h2 {
+  font-family: "Allura";
+  color: #a87345;
+  font-weight: 300;
+}
+.section3 .left-container .dashed .planning h3 {
+  color: whitesmoke;
+  transform: translateY(-9px);
+  text-transform: uppercase;
+  font-family: "Poppins";
+  font-weight: 200;
+  padding-bottom: 15px;
+}
+.section3 .left-container .dashed .planning .days {
+  color: #a87345;
+  text-transform: uppercase;
+  font-family: "Roboto";
+  font-weight: 700;
+  padding: 35px 0;
+  font-size: 0.9rem;
+}
+.section3 .left-container .dashed .planning p {
+  color: rgb(187, 181, 181);
+  font-size: 0.7rem;
+  overflow: hidden;
+}
+.section3 .right-container {
+  background: rgb(235, 234, 234);
+}
+.section3 .right-container .booking-header {
+  text-align: center;
+  padding: 80px;
+}
+.section3 .right-container .booking-header h2 {
+  font-family: "Allura";
+  color: #a87345;
+  font-size: 2.8rem;
+  font-weight: 500;
+}
+.section3 .right-container .booking-header h3 {
+  font-family: "Poppins";
+  text-transform: uppercase;
+  transform: translateY(-20px);
+  font-size: 1.9rem;
+}
+.section3 .right-container form input[type=text],
+.section3 .right-container form input[type=date],
+.section3 .right-container form input[type=time],
+.section3 .right-container form input[type=number],
+.section3 .right-container form input[type=email],
+.section3 .right-container form select {
+  background: none;
+  border-bottom: 1px solid gray;
+  border-radius: 4px;
+  resize: none;
+  height: 30px;
+  width: 30%;
+}
+.section3 .right-container form .form1 {
+  display: flex;
+  justify-content: center;
+}
+.section3 .right-container form .form2 {
+  display: flex;
+  justify-content: center;
 }/*# sourceMappingURL=index.css.map */
