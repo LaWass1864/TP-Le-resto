@@ -211,12 +211,12 @@ header .header p {
   grid-template-columns: 20% 50% 30%;
   align-items: center;
   gap: 30px;
-  padding: 20px;
+  padding: 30px;
 }
 .section2 .menu .menu-gauche .plates::after {
   content: "";
   border-bottom: 1px dashed gray;
-  width: 390px;
+  width: 365px;
 }
 .section2 .menu .menu-gauche .description-plat {
   display: flex;
@@ -245,12 +245,12 @@ header .header p {
   grid-template-columns: 20% 50% 30%;
   align-items: center;
   gap: 30px;
-  padding: 20px;
+  padding: 30px;
 }
 .section2 .menu .menu-droite .plates::after {
   content: "";
   border-bottom: 1px dashed gray;
-  width: 390px;
+  width: 365px;
 }
 .section2 .menu .menu-droite .description-plat {
   display: flex;
