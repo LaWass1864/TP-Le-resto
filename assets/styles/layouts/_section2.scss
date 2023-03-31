@@ -63,12 +63,12 @@
         grid-template-columns: 20% 50% 30%;      
         align-items: center;
         gap:30px;
-        padding: 20px;
+        padding: 30px;
         
         &::after{
           content: '';
           border-bottom: 1px dashed gray;
-          width: 390px;
+          width: 365px;
         }
       }
 
@@ -106,12 +106,12 @@
         grid-template-columns: 20% 50% 30%;      
         align-items: center;
         gap:30px;
-        padding: 20px;
+        padding: 30px;
         
         &::after{
           content: '';
           border-bottom: 1px dashed gray;
-          width: 390px;
+          width: 365px;
         }
       }
 
