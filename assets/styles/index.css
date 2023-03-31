@@ -1,15 +1,4 @@
-@font-face {
-  font-family: "allura";
-  src: url(../fonts/Allura-Regular.ttf);
-}
-@font-face {
-  font-family: "poppins";
-  src: url(../fonts/Poppins-Medium.ttf);
-}
-@font-face {
-  font-family: "roboto";
-  src: url(../fonts/Roboto-Light.ttf);
-}
+@import url("https://fonts.googleapis.com/css2?family=Allura&family=Poppins:wght@500&family=Roboto:wght@300&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -22,10 +11,12 @@ html {
 
 li {
   list-style: none;
+  cursor: pointer;
 }
 
 body {
   background-color: rgb(39, 39, 39);
+  scroll-behavior: smooth;
 }
 body:before {
   content: "";
@@ -45,23 +36,115 @@ body:before {
 }
 
 header {
-  min-height: 50vh;
-  background: url(/assets/img/bg-slider-06.jpg);
+  min-height: 100vh;
+  background: url(/assets/img/bg-slider-06.jpg) center/cover;
 }
 header nav {
   display: flex;
-  justify-content: space-evenly;
-  width: 70%;
+  justify-content: space-between;
+  width: 80%;
   margin: 0 auto;
   padding: 30px;
+  overflow: hidden;
 }
 header ul {
   display: flex;
-  align-items: center;
-}
-header li {
-  padding: 0 20px;
+  justify-content: space-between;
+  color: rgb(202, 202, 202);
+  cursor: pointer;
 }
 header .logo {
-  color: rgb(214, 214, 9);
+  font-family: "Allura";
+  font-size: 2rem;
+  transform: translateY(-10px);
+}
+header .menu li {
+  padding: 0 40px;
+  text-transform: uppercase;
+  font-family: "Roboto";
+  font-weight: 500;
+}
+header .social li {
+  padding-right: 20px;
+}
+header .header {
+  padding: 90px;
+  text-align: center;
+}
+header .header h1 {
+  color: rgb(190, 108, 30);
+  font-family: "Allura";
+  font-size: 3rem;
+  font-weight: 300;
+  transform: translateY(10px);
+}
+header .header .welcome {
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-family: "Poppins";
+  color: white;
+  letter-spacing: 8px;
+  transform: translateY(-20px);
+}
+header .header img {
+  font-size: 20px;
+}
+header .header p {
+  font-family: "Roboto";
+  color: white;
+  letter-spacing: 6px;
+  transform: translateY(50px);
+}
+
+.section1 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.section1 .container-left {
+  background: rgb(221, 220, 220);
+}
+.section1 .dashed {
+  margin: 20px;
+  padding: 30px;
+  border: 1px dashed #a87345;
+  text-align: center;
+  height: 540px;
+}
+.section1 .dashed h2 {
+  font-family: "Allura";
+  color: #a87345;
+  font-size: 2rem;
+  font-weight: 200;
+}
+.section1 .dashed h3 {
+  font-size: 1.2rem;
+  font-family: "poppins";
+  transform: translateY(-10px);
+  font-weight: 600;
+  text-transform: uppercase;
+  padding-bottom: 30px;
+}
+.section1 .dashed img {
+  padding-bottom: 30px;
+}
+.section1 .dashed p {
+  font-family: "Roboto";
+  padding-bottom: 30px;
+  font-weight: 500;
+}
+.section1 .dashed .russel {
+  text-transform: capitalize;
+  font-family: "Roboto";
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+.section1 .dashed .chef {
+  text-transform: uppercase;
+  color: rgb(177, 175, 175);
+  font-weight: 500;
+  transform: translateY(-30px);
+}
+.section1 .container-right {
+  background-image: url(/assets/img/store-01.jpg);
+  background-position: center;
 }/*# sourceMappingURL=index.css.map */

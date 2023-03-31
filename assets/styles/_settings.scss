@@ -1,23 +1,7 @@
 // Polices ecritures
 
-@font-face {
-  font-family: "allura";
-  src: url(../fonts/Allura-Regular.ttf);
-}
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Poppins:wght@500&family=Roboto:wght@300&display=swap');
 
-@font-face {
-  font-family: "poppins";
-  src: url(../fonts/Poppins-Medium.ttf);
-}
-
-@font-face {
-  font-family: "roboto";
-  src: url(../fonts/Roboto-Light.ttf);
-}
-
-$font1: allura, sans-serif;
-$font2: poppins, serif;
-$font3 : roboto, sans-serif;
 // couleurs
 
 // mixin
@@ -36,11 +20,12 @@ html {
 
 li {
   list-style: none;
+  cursor: pointer;
 }
 
 body {
   background-color: rgb(39, 39, 39);
-
+  scroll-behavior: smooth;
   &:before {
     content: "";
     position: absolute;

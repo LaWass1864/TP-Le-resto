@@ -1,0 +1,61 @@
+.section1 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+    
+  .container-left {
+    background: rgb(221, 220, 220);
+  }
+
+  .dashed {
+    margin: 20px;
+    padding: 30px;
+    border: 1px dashed #a87345;
+    text-align: center;
+    height: 540px;
+    h2 {
+      font-family: "Allura";
+      color: #a87345;
+      font-size: 2rem;
+      font-weight: 200;
+    }
+    h3 {
+      font-size: 1.2rem;
+      font-family: "poppins";
+      transform: translateY(-10px);
+      font-weight: 600;
+      text-transform: uppercase;
+      padding-bottom: 30px;
+    }
+
+    img {
+      padding-bottom: 30px;
+    }
+
+    p {
+      font-family: "Roboto";
+      padding-bottom: 30px;
+      font-weight: 500;
+    }
+
+    .russel {
+      text-transform: capitalize;
+      font-family: "Roboto";
+      font-weight: 800;
+      letter-spacing: 1px;
+    }
+
+    .chef {
+      text-transform: uppercase;
+      color: rgb(177, 175, 175);
+      font-weight: 500;
+      transform: translateY(-30px);
+    }
+  }
+
+  .container-right {
+    background-image: url(/assets/img/store-01.jpg);
+    background-position: center;
+  }
+      
+  
+}
