@@ -1,113 +1,120 @@
-.section3{
-    background: rgb(39, 39, 39);
-   
+.section3 {
+  background: rgb(39, 39, 39);
 
-    .formulaire {
-        width: 70%;
-        height: 400px;
-        margin: 0 auto;       
-        display: grid;
-        grid-template-columns: 30% 70%;
+  .formulaire {
+    width: 70%;
+    height: 400px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    padding-top: 30px;
+    @media only screen and (max-width: 822px) {        
+        display: block;              
+        
+      }
+  }
+
+  .left-container {
+    background: #030303;
+
+    
+    .dashed {
+        border: 1px dashed rgb(207, 203, 203);
+        margin: 30px;
+        
+        .planning {
+            text-align: center;
+            padding: 10px;
+            h2 {
+                font-family: "Allura";
+                color: #a87345;
+                font-weight: 300;
+            }
+            h3 {
+                color: whitesmoke;
+                transform: translateY(-9px);
+                text-transform: uppercase;
+                font-family: "Poppins";
+                font-weight: 200;
+                padding-bottom: 15px;
+            }
+            .days {
+                color: #a87345;
+                text-transform: uppercase;
+                font-family: "Roboto";
+                font-weight: 700;
+                padding: 35px 0;
+                font-size: 0.9rem;
+            }
+            p {
+                color: rgb(187, 181, 181);
+          font-size: 0.7rem;
+          overflow: hidden;
+        }
+    }
+}
+}
+
+.right-container {
+    background: rgb(235, 234, 234);
+    
+    .booking-header {
+        text-align: center;
+        padding: 60px;
+        
+        h2 {
+            font-family: "Allura";
+            color: #a87345;
+            font-size: 2.8rem;
+            font-weight: 500;
+            overflow: hidden;
+        }
+        
+        h3 {
+            font-family: "Poppins";
+            text-transform: uppercase;
+        transform: translateY(-20px);
+        font-size: 1.9rem;
+        display : inline;
+    }
+    
+    img {
         padding-top: 30px;
     }
-
-    .left-container{
-        background: #030303;
-        
-        .dashed{
-            border: 1px dashed rgb(207, 203, 203);
-            margin: 30px;
-            
-            .planning{
-                text-align: center;
-                padding: 10px;
-                h2{
-                    font-family: 'Allura';
-                    color: #a87345;
-                    font-weight: 300;
-                }
-                h3{
-                    color:whitesmoke;
-                    transform: translateY(-9px);
-                    text-transform: uppercase;
-                    font-family: 'Poppins';
-                    font-weight: 200;
-                    padding-bottom: 15px;
-
-                }
-                .days{
-                    color: #a87345;
-                    text-transform: uppercase;
-                    font-family: 'Roboto';
-                    font-weight: 700;
-                    padding: 35px 0;
-                    font-size: 0.9rem;
-                }
-                p{
-                    color:rgb(187, 181, 181);
-                    font-size: 0.7rem;
-                    overflow: hidden;
-                    
-                }
-
-            }
-
-        }
-    }
-
-    .right-container{
-        background: rgb(235, 234, 234);
-        
-        .booking-header{
-            text-align: center;
-            padding: 80px;
-
-            h2{
-                font-family: 'Allura';
-                color: #a87345;
-                font-size: 2.8rem;
-                font-weight: 500;
-            }
-
-            h3{
-                font-family: 'Poppins';
-                text-transform: uppercase;
-                transform: translateY(-20px);
-                font-size: 1.9rem;
-            }
-
-        }
-
-        form{
-           
-            input[type="text"],
-            input[type="date"],
-            input[type="time"],
-            input[type="number"],
-            input[type="email"],
-            select{
-                background: none;
-                border-bottom: 1px solid gray;
-                border-radius: 4px;
-                resize: none;
-                height: 30px;
-                width: 30%;
-              }
-              
-          .form1{
-            display: flex;
-            justify-content: center;
-          }
-
-          .form2{
-            display: flex;
-            justify-content: center;
-          }
-
-
-
-        }
-        
-    }
-
 }
+
+form {
+      width: 80%;
+      margin: 0 auto;
+      input[type="text"],
+      input[type="date"],
+      input[type="time"],
+      input[type="number"],
+      input[type="email"],
+      select {
+          width: 30%;
+          padding: 12px;
+          box-sizing: border-box;
+          border: none;
+          border-bottom: 2px solid rgb(180, 179, 179);
+          background: transparent;
+        }
+        
+        .form1 {
+            display: flex;
+            justify-content: space-around;
+        }
+        
+        .form2 {
+            display: flex;
+            justify-content: space-around;
+        }
+        
+        .button {
+        display: flex;
+        justify-content: center;
+      }
+    }
+}
+}
+

@@ -4,7 +4,8 @@
   text-align: center;
   background-position-y: 400px;
   padding: 50px;
-  height: 950px;
+  height: auto;
+  
 
   .title {
     font-family: "Allura";
@@ -47,11 +48,18 @@
   .menu {
     background: rgb(238, 237, 237);
     width: 60%;
+    height: auto;
     margin: 0 auto;    
     display: grid;
     grid-template-columns: 50% 50%;
     border-top: 5px solid #a87345;
     padding: 10px;
+   
+    @media only screen and (max-width: 822px) {        
+      display: block;              
+      width: 100%;
+      
+    }
 
     .menu-gauche {
       img {
@@ -59,6 +67,7 @@
         height: 90px;
       }
 
+      
       .plates {
         display: grid;
         grid-template-columns: 25% 45% 20%;      
@@ -67,11 +76,13 @@
         padding: 10px;
         line-height: 20px;
         
+        
         &::after{
           content: '';
           border-bottom: 1px dashed gray;
           width: 400%;
         }
+
       }
 
       .description-plat {

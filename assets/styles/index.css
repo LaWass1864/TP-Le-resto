@@ -160,7 +160,7 @@ header .header p {
   text-align: center;
   background-position-y: 400px;
   padding: 50px;
-  height: 950px;
+  height: auto;
 }
 .section2 .title {
   font-family: "Allura";
@@ -197,11 +197,18 @@ header .header p {
 .section2 .menu {
   background: rgb(238, 237, 237);
   width: 60%;
+  height: auto;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 50% 50%;
   border-top: 5px solid #a87345;
   padding: 10px;
+}
+@media only screen and (max-width: 822px) {
+  .section2 .menu {
+    display: block;
+    width: 100%;
+  }
 }
 .section2 .menu .menu-gauche img {
   border-radius: 50%;
@@ -287,6 +294,11 @@ header .header p {
   grid-template-columns: 30% 70%;
   padding-top: 30px;
 }
+@media only screen and (max-width: 822px) {
+  .section3 .formulaire {
+    display: block;
+  }
+}
 .section3 .left-container {
   background: #030303;
 }
@@ -329,19 +341,28 @@ header .header p {
 }
 .section3 .right-container .booking-header {
   text-align: center;
-  padding: 80px;
+  padding: 60px;
 }
 .section3 .right-container .booking-header h2 {
   font-family: "Allura";
   color: #a87345;
   font-size: 2.8rem;
   font-weight: 500;
+  overflow: hidden;
 }
 .section3 .right-container .booking-header h3 {
   font-family: "Poppins";
   text-transform: uppercase;
   transform: translateY(-20px);
   font-size: 1.9rem;
+  display: inline;
+}
+.section3 .right-container .booking-header img {
+  padding-top: 30px;
+}
+.section3 .right-container form {
+  width: 80%;
+  margin: 0 auto;
 }
 .section3 .right-container form input[type=text],
 .section3 .right-container form input[type=date],
@@ -349,18 +370,22 @@ header .header p {
 .section3 .right-container form input[type=number],
 .section3 .right-container form input[type=email],
 .section3 .right-container form select {
-  background: none;
-  border-bottom: 1px solid gray;
-  border-radius: 4px;
-  resize: none;
-  height: 30px;
   width: 30%;
+  padding: 12px;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid rgb(180, 179, 179);
+  background: transparent;
 }
 .section3 .right-container form .form1 {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 .section3 .right-container form .form2 {
+  display: flex;
+  justify-content: space-around;
+}
+.section3 .right-container form .button {
   display: flex;
   justify-content: center;
 }/*# sourceMappingURL=index.css.map */
