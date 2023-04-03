@@ -5,9 +5,9 @@ header {
   nav {
     display: flex;
     justify-content: space-between;
-    width: 80%;
+    align-items: center;
+    width: 90%;
     margin: 0 auto;
-    padding: 30px;
     overflow: hidden;
   }
 
@@ -17,29 +17,47 @@ header {
     color: rgb(202, 202, 202);
   }
 
+  li {
+    padding: 20px 40px;
+    transform: translateY(5px);
+   
+
+  }
   .logo {
     font-family: "Allura";
-    font-size: 2rem;
-    transform: translateY(-10px);
-    &:hover {
-      color: red;
-    }
+    font-size: 3rem;
+    font-weight: bold;
   }
 
   .menu {
-    li{
+    li {
       color: rgb(202, 202, 202);
-      padding-left: 70px;
       font-family: "roboto";
       text-transform: uppercase;
-      font-weight: 500;    
-      
+      font-weight: 500;
+      @media only screen and (max-width: 822px) {
+        display: none;
+      }
+      &:after {
+        content: "";
+        display: block;
+        width: 0;
+        background: #a87345;
+        height: 2px;
+        transition: width 0.3s;
+      }
+  
+      &:hover::after {
+        width: 100%;
+      }
     }
   }
+  .social {       
+    li{
 
-  .social {
-    li {
-      padding-right: 20px;
+      &:hover {
+        color: #a87345;
+      }
     }
   }
 
@@ -66,7 +84,6 @@ header {
 
     img {
       font-size: 20px;
-      
     }
 
     p {

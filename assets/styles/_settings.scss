@@ -20,14 +20,13 @@ html {
 
 li {
   list-style: none;
-  cursor: pointer;
-
- 
+  cursor: pointer; 
 }
 
 body {
   background-color: rgb(39, 39, 39);
   scroll-behavior: smooth;
+  
   &:before {
     content: "";
     position: absolute;

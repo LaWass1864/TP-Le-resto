@@ -6,7 +6,7 @@
   padding: 50px;
   height: auto;
   
-
+  
   .title {
     font-family: "Allura";
     color: #a87345;
@@ -17,6 +17,7 @@
   nav {
     display: flex;
     justify-content: center;
+    overflow: hidden;
     
     ul {
       display: flex;
@@ -55,7 +56,7 @@
     border-top: 5px solid #a87345;
     padding: 10px;
    
-    @media only screen and (max-width: 822px) {        
+    @media only screen and (max-width: 1147px) {        
       display: block;              
       width: 100%;
       
