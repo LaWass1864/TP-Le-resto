@@ -119,7 +119,6 @@ header .header p {
 .section1 {
   display: grid;
   grid-template-columns: 50% 50%;
-  min-height: 400px;
 }
 @media only screen and (max-width: 822px) {
   .section1 {
@@ -128,13 +127,13 @@ header .header p {
 }
 .section1 .container-left {
   background: rgb(221, 220, 220);
+  height: 590px;
 }
 .section1 .dashed {
-  margin: 20px;
-  padding: 30px;
+  margin: 15px;
+  padding: 10px;
   border: 1px dashed #a87345;
   text-align: center;
-  height: auto;
 }
 .section1 .dashed h2 {
   font-family: "Allura";
@@ -173,6 +172,12 @@ header .header p {
 .section1 .container-right {
   background-image: url(/assets/img/store-01.jpg);
   background-position: center;
+  height: 590px;
+}
+@media only screen and (max-width: 822px) {
+  .section1 .container-right {
+    display: none;
+  }
 }
 
 .section2 {

@@ -1,22 +1,24 @@
 .section1 {
+  
   display: grid;
-  grid-template-columns: 50% 50%;
-    min-height: 400px;
+  grid-template-columns: 50% 50%;    
     @media only screen and (max-width: 822px) {        
       display: block;              
-            
+          
     }
   
   .container-left {
     background: rgb(221, 220, 220);
+    height: 590px;
+    
   }
-
+  
   .dashed {
-    margin: 20px;
-    padding: 30px;
+    margin: 15px;
+    padding: 10px;
     border: 1px dashed #a87345;
     text-align: center;
-    height: auto;
+    
     h2 {
       font-family: "Allura";
       color: #a87345;
@@ -34,6 +36,7 @@
 
     img {
       padding-bottom: 30px;
+      
     }
 
     p {
@@ -60,6 +63,12 @@
   .container-right {
     background-image: url(/assets/img/store-01.jpg);
     background-position: center;
+    height: 590px;
+
+    @media only screen and (max-width: 822px) {        
+      display: none;              
+            
+    }
   }
       
   
