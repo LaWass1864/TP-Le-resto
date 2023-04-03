@@ -415,9 +415,9 @@ header .header p {
 }
 .section3 .right-container form .button input {
   text-transform: uppercase;
-  padding: 20px;
+  padding: 15px;
   border-radius: 30px;
-  width: 30%;
+  width: 33%;
   background: #000;
   color: white;
   font-size: 1rem;
@@ -428,6 +428,7 @@ header .header p {
 
 .section4 {
   margin-top: 150px;
+  margin-bottom: 100px;
 }
 .section4 .header-title {
   text-align: center;
@@ -653,4 +654,106 @@ header .header p {
   border: none;
   font-weight: 600;
   padding-top: 50px;
+}
+
+.section5 {
+  height: 400px;
+  background-image: url(/assets/img/gmap.jpg);
+  background-repeat: no-repeat;
+  background-position-y: 90px;
+}
+.section5 .quote {
+  background: whitesmoke;
+  width: 70%;
+  margin: 0 auto;
+  position: relative;
+  height: auto;
+}
+.section5 .quote .avatar-chief {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -330%);
+  height: 50px;
+  width: 50px;
+}
+.section5 .quote .citation {
+  text-align: center;
+  padding: 50px;
+}
+.section5 .quote .citation .quote {
+  line-height: 30px;
+  font-family: "Roboto";
+  text-transform: capitalize;
+}
+.section5 .quote .citation .author {
+  padding-top: 20px;
+}
+.section5 .quote .citation .author span {
+  font-family: "Roboto";
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+.section5 .quote .citation .author p {
+  padding-top: 20px;
+  color: #a87345;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+footer .left-footer {
+  background: #1d1b1b;
+  padding: 30px;
+}
+footer .left-footer h4 {
+  font-family: "Allura";
+  font-size: 2rem;
+  color: #a87345;
+  font-weight: 400;
+}
+footer .left-footer p {
+  line-height: 25px;
+  color: rgb(92, 90, 90);
+  font-family: "Roboto";
+  letter-spacing: 1px;
+}
+footer .right-footer {
+  padding: 30px;
+}
+footer .right-footer .newsletter {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 30px;
+}
+footer .right-footer .newsletter span {
+  color: whitesmoke;
+  text-transform: uppercase;
+  font-family: "Roboto";
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+footer .right-footer .newsletter input {
+  background: none;
+  border: 1px solid gray;
+  padding: 5px;
+  color: gray;
+  text-transform: capitalize;
+}
+footer .right-footer .contact {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+}
+footer .right-footer .contact p {
+  color: whitesmoke;
+  text-transform: uppercase;
+  font-family: "Roboto";
+  font-weight: 600;
+  text-transform: uppercase;
+}
+footer .right-footer .contact i {
+  color: rgb(92, 90, 90);
 }/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,69 @@
+footer{
+    display: grid;
+    grid-template-columns: 40% 60%;
+
+    .left-footer{
+        background: #1d1b1b;
+        padding: 30px;
+
+        h4{
+            font-family: 'Allura';
+            font-size: 2rem;
+            color: #a87345;
+            font-weight: 400;
+        }
+
+        p {
+            line-height: 25px;
+            color: rgb(92, 90, 90);
+            font-family: 'Roboto';
+            letter-spacing: 1px;
+        }
+    }
+
+    .right-footer{
+        padding: 30px;
+
+        .newsletter{
+            width: 40%;
+            display: flex;
+            flex-direction: column;
+            padding-bottom: 30px;
+
+            span{
+                color:whitesmoke;
+                text-transform: uppercase;
+                font-family: 'Roboto';
+                font-weight: 600;
+                padding-bottom: 10px;
+            }
+            input{
+                background: none;
+                border:1px solid gray;
+                padding: 5px;
+                color:gray;
+                text-transform: capitalize;
+            }
+        }
+        .contact{
+            display: flex;
+            justify-content: space-between;
+            width: 40%;
+            p{
+                color:whitesmoke;
+                text-transform: uppercase;
+                font-family: 'Roboto';                
+                font-weight: 600;
+                text-transform: uppercase;
+            }
+
+            i{
+                color:rgb(92, 90, 90);
+            }
+
+            
+            
+
+        }
+    }
+}

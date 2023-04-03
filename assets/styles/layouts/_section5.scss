@@ -1,0 +1,47 @@
+.section5 {
+  height: 400px;
+  background-image: url(/assets/img/gmap.jpg);
+  background-repeat: no-repeat;
+  background-position-y: 90px;
+
+  .quote {
+    background: whitesmoke;
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+    height: auto;
+
+    .avatar-chief {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -330%);
+      height: 50px;
+      width: 50px;
+    }
+
+    .citation {
+      text-align: center;
+      padding: 50px;
+
+      .quote {
+        line-height: 30px;
+        font-family: "Roboto";
+        text-transform: capitalize;
+      }
+      .author {
+        padding-top: 20px;
+        span {
+          font-family: "Roboto";
+          letter-spacing: 1px;
+          font-weight: 600;
+        }
+
+        p {
+          padding-top: 20px;
+          color: #a87345;
+        }
+      }
+    }
+  }
+}
