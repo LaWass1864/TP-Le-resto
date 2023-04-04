@@ -187,6 +187,12 @@ header .header p {
   background-position-y: 400px;
   padding: 50px;
   height: auto;
+  grid-template-columns: 50% 50%;
+}
+@media only screen and (max-width: 822px) {
+  .section2 {
+    background-position-y: 900px;
+  }
 }
 .section2 .title {
   font-family: "Allura";
@@ -198,6 +204,13 @@ header .header p {
   display: flex;
   justify-content: center;
   overflow: hidden;
+  grid-template-columns: 50% 50%;
+}
+@media only screen and (max-width: 822px) {
+  .section2 nav {
+    width: 600px;
+    margin: 0 auto;
+  }
 }
 .section2 nav ul {
   display: flex;
@@ -209,6 +222,11 @@ header .header p {
   color: white;
   text-decoration: none;
   text-transform: capitalize;
+}
+@media only screen and (max-width: 822px) {
+  .section2 nav li {
+    padding: 40px 40px;
+  }
 }
 .section2 nav li:after {
   content: "";
@@ -325,6 +343,7 @@ header .header p {
 @media only screen and (max-width: 822px) {
   .section3 .formulaire {
     display: block;
+    margin-top: 30px;
   }
 }
 .section3 .left-container {
@@ -434,6 +453,11 @@ header .header p {
 .section4 {
   margin-top: 150px;
   margin-bottom: 100px;
+}
+@media only screen and (max-width: 822px) {
+  .section4 {
+    display: none;
+  }
 }
 .section4 .header-title {
   text-align: center;

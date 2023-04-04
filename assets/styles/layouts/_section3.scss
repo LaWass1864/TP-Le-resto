@@ -1,17 +1,20 @@
 .section3 {
+  
   background: rgb(39, 39, 39);
   margin-top: 30px;
-
+  
   .formulaire {
+    @media only screen and (max-width: 822px) {
+      display: block;
+      margin-top: 30px;
+    }
     width: 70%;
     height: 400px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 30% 70%;
     padding-top: 30px;
-    @media only screen and (max-width: 822px) {
-      display: block;
-    }
+    
   }
 
   .left-container {

@@ -1,6 +1,9 @@
 .section4 {
   margin-top: 150px;
   margin-bottom: 100px;
+  @media only screen and (max-width: 822px) {
+    display: none;
+  }
   .header-title {
     text-align: center;
     padding: 90px 0;

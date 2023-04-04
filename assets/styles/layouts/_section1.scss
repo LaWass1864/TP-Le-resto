@@ -1,18 +1,17 @@
 .section1 {
   
   display: grid;
-  grid-template-columns: 50% 50%;    
-    @media only screen and (max-width: 822px) {        
-      display: block;              
-          
-    }
-  
+  grid-template-columns: 50% 50%;
+  @media only screen and (max-width: 822px) {
+    display: block;
+  }
+
   .container-left {
     background: rgb(221, 220, 220);
     height: 590px;
-    
+
   }
-  
+
   .dashed {
     margin: 15px;
     padding: 10px;
@@ -36,7 +35,6 @@
 
     img {
       padding-bottom: 30px;
-      
     }
 
     p {
@@ -65,11 +63,8 @@
     background-position: center;
     height: 590px;
 
-    @media only screen and (max-width: 822px) {        
-      display: none;              
-            
+    @media only screen and (max-width: 822px) {
+      display: none;
     }
   }
-      
-  
 }
