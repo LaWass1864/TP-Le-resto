@@ -37,7 +37,7 @@ body:before {
 
 header {
   min-height: 100vh;
-  background: url(/assets/img/bg-slider-06.jpg) center/cover;
+  background: url(../img/bg-slider-06.jpg) center/cover;
 }
 header nav {
   display: flex;
@@ -176,7 +176,7 @@ header .header p {
   transform: translateY(-30px);
 }
 .section1 .container-right {
-  background-image: url(/assets/img/store-01.jpg);
+  background-image: url(../img/store-01.jpg);
   background-position: center;
   height: 590px;
 }
@@ -187,7 +187,7 @@ header .header p {
 }
 
 .section2 {
-  background-image: url(/assets/img/bg-menu-01.jpg);
+  background-image: url(../img/bg-menu-01.jpg);
   background-repeat: no-repeat;
   text-align: center;
   background-position-y: 400px;
@@ -515,7 +515,7 @@ header .header p {
   grid-template-columns: 30% 70%;
 }
 .section4 .events .div1 .party {
-  background: url(/assets/img/event-01.jpg) center/cover;
+  background: url(../img/event-01.jpg) center/cover;
   display: flex;
   align-items: center;
 }
@@ -576,7 +576,7 @@ header .header p {
   grid-template-columns: 30% 70%;
 }
 .section4 .events .div2 .ruhme {
-  background: url(/assets/img/event-02.jpg) center/cover;
+  background: url(../img/event-02.jpg) center/cover;
   display: flex;
   align-items: center;
 }
@@ -633,7 +633,7 @@ header .header p {
   border: none;
 }
 .section4 .events .div3 {
-  background: url(/assets/img/event-03.jpg);
+  background: url(../img/event-03.jpg);
 }
 .section4 .events .div3 .celebrities {
   margin: 30px;
@@ -700,7 +700,7 @@ header .header p {
 
 .section5 {
   min-height: 500px;
-  background-image: url(/assets/img/gmap.jpg);
+  background-image: url(../img/gmap.jpg);
   background-repeat: no-repeat;
   background-position-y: 90px;
 }
