@@ -2,9 +2,42 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Allura&family=Poppins:wght@500&family=Roboto:wght@300&display=swap');
 
+// avec font-face 
+
+@font-face {
+  font-family: "Allura";
+  src: url(../fonts/Allura-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url(../fonts/Poppins-Medium.ttf);
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url(../fonts/Roboto-Light.ttf);
+}
+
+$font1 : Allura, cursive;
+$font2 : Poppins, serif;
+$font3 : Roboto, serif;
 // couleurs
 
 // mixin
+@mixin childCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin alignChildren($space){
+  display: flex;
+  align-items: center;
+  justify-content: $space;
+}
+
+@include alignChildren(space-between);
 
 // parametres generaux
 
