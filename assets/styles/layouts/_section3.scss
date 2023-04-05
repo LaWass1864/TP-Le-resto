@@ -1,12 +1,12 @@
 .section3 {
-  
+  height: 100%;
   background: rgb(39, 39, 39);
   margin-top: 30px;
   
   .formulaire {
     @media only screen and (max-width: 822px) {
       display: block;
-      margin-top: 30px;
+      height: auto;    
     }
     width: 70%;
     height: 400px;
@@ -59,11 +59,10 @@
 
   .right-container {
     background: rgb(235, 234, 234);
-
     .booking-header {
       text-align: center;
       padding: 60px;
-
+     
       h2 {
         font-family: "Allura";
         color: #a87345;
@@ -71,7 +70,7 @@
         font-weight: 500;
         overflow: hidden;
       }
-
+      
       h3 {
         font-family: "Poppins";
         text-transform: uppercase;
@@ -79,13 +78,15 @@
         font-size: 1.9rem;
         display: inline;
       }
-
+      
       img {
         padding-top: 30px;
       }
     }
-
-    form {
+    
+    
+    form {      
+      height: 80%;
       width: 80%;
       margin: 0 auto;
       input[type="text"],
@@ -101,17 +102,18 @@
         border-bottom: 1px solid rgb(180, 179, 179);
         background: transparent;
       }
-
+      
+      
       .form1 {
         display: flex;
         justify-content: space-around;
-      }
 
+      }
       .form2 {
         display: flex;
         justify-content: space-around;
       }
-
+      
       .button {
         display: flex;
         justify-content: center;
@@ -128,6 +130,9 @@
             font-weight: bold;
             letter-spacing: 2px;
             cursor: pointer;
+            @media only screen and (max-width: 822px) {
+              width: 50%;
+            }
         }
       }
     }

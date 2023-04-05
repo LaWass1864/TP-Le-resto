@@ -117,6 +117,8 @@ header .header p {
 }
 
 .section1 {
+  margin-bottom: 90px;
+  height: 500px;
   display: grid;
   grid-template-columns: 50% 50%;
 }
@@ -127,13 +129,17 @@ header .header p {
 }
 .section1 .container-left {
   background: rgb(221, 220, 220);
-  height: 590px;
 }
 .section1 .dashed {
   margin: 15px;
   padding: 10px;
   border: 1px dashed #a87345;
   text-align: center;
+}
+@media only screen and (max-width: 822px) {
+  .section1 .dashed {
+    margin: 30px;
+  }
 }
 .section1 .dashed h2 {
   font-family: "Allura";
@@ -329,6 +335,7 @@ header .header p {
 }
 
 .section3 {
+  height: 100%;
   background: rgb(39, 39, 39);
   margin-top: 30px;
 }
@@ -343,7 +350,7 @@ header .header p {
 @media only screen and (max-width: 822px) {
   .section3 .formulaire {
     display: block;
-    margin-top: 30px;
+    height: auto;
   }
 }
 .section3 .left-container {
@@ -408,6 +415,7 @@ header .header p {
   padding-top: 30px;
 }
 .section3 .right-container form {
+  height: 80%;
   width: 80%;
   margin: 0 auto;
 }
@@ -448,6 +456,11 @@ header .header p {
   font-weight: bold;
   letter-spacing: 2px;
   cursor: pointer;
+}
+@media only screen and (max-width: 822px) {
+  .section3 .right-container form .button input {
+    width: 50%;
+  }
 }
 
 .section4 {
@@ -686,10 +699,17 @@ header .header p {
 }
 
 .section5 {
-  height: 400px;
+  min-height: 500px;
   background-image: url(/assets/img/gmap.jpg);
   background-repeat: no-repeat;
   background-position-y: 90px;
+}
+@media only screen and (max-width: 822px) {
+  .section5 {
+    height: 100%;
+    margin-top: 50px;
+    background-position-y: 90px;
+  }
 }
 .section5 .quote {
   background: whitesmoke;
@@ -702,9 +722,15 @@ header .header p {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -330%);
+  transform: translate(-50%, -290%);
   height: 50px;
   width: 50px;
+}
+@media only screen and (max-width: 822px) {
+  .section5 .quote .avatar-chief {
+    position: absolute;
+    transform: translate(-50%, -450%);
+  }
 }
 .section5 .quote .citation {
   text-align: center;
@@ -731,6 +757,12 @@ header .header p {
 footer {
   display: grid;
   grid-template-columns: 40% 60%;
+}
+@media only screen and (max-width: 822px) {
+  footer {
+    display: block;
+    margin-top: 30px;
+  }
 }
 footer .left-footer {
   background: #1d1b1b;

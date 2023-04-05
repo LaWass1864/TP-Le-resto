@@ -1,5 +1,8 @@
 footer{
-    
+    @media only screen and (max-width: 822px) {
+        display: block;
+        margin-top: 30px;
+      }
     display: grid;
     grid-template-columns: 40% 60%;
     .left-footer{
