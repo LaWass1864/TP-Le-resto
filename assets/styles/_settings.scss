@@ -37,7 +37,7 @@ $font3 : Roboto, serif;
   justify-content: $space;
 }
 
-@include alignChildren(space-between);
+@include alignChildren(space-between ou space-around);
 
 // parametres generaux
 

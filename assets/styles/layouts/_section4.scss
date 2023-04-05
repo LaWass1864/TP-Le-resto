@@ -52,7 +52,7 @@
       grid-template-columns: 30% 70%;
 
       .party {
-        background: url(/assets/img/event-01.jpg) center/cover;
+        background: url(../img/event-01.jpg) center/cover;
 
         display: flex;
         align-items: center;
@@ -120,7 +120,7 @@
       grid-template-columns: 30% 70%;
 
       .ruhme {
-        background: url(/assets/img/event-02.jpg) center/cover;
+        background: url(../img/event-02.jpg) center/cover;
 
         display: flex;
         align-items: center;
@@ -184,7 +184,7 @@
     }
 
     .div3 {
-      background: url(/assets/img/event-03.jpg);
+      background: url(../img/event-03.jpg);
       .celebrities {
         margin: 30px;
         background: whitesmoke;
