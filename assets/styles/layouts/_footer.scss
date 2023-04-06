@@ -5,7 +5,7 @@ footer{
       }
     display: grid;
     grid-template-columns: 40% 60%;
-    .left-footer{
+    .left-footer{        
         background: #1d1b1b;
         padding: 30px;
 
@@ -26,6 +26,7 @@ footer{
 
     .right-footer{
         padding: 30px;
+        
 
         .newsletter{
             width: 40%;
