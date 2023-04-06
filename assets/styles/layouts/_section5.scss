@@ -16,17 +16,16 @@
     position: relative;
     height: auto;
 
-    .avatar-chief {
+    &:before {
+      content: "";
       position: absolute;
-      top: 50%;
+      background: url(/assets/img/avatar-02-modified.png) center/cover;
+      height: 60px;
+      width: 60px;
+      top: -30px;
       left: 50%;
-      transform: translate(-50%, -290%);
-      height: 50px;
-      width: 50px;
-      @media only screen and (max-width: 822px) {
-        position: absolute;
-        transform: translate(-50%, -450%);
-      }
+      transform: translateX(-50%);
+      border-radius: 50px;
     }
 
     .citation {
